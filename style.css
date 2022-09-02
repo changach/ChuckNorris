@@ -4,7 +4,7 @@ body{
     
 }
 .chuck{
-    position: relative;
+    position:relative;
     max-width: 100%;
     height: auto;
     margin-top: 2rem;
@@ -142,15 +142,9 @@ body{
     font-size: 20px;
     
   }
-  .title{
-    position: relative;
-    text-align: center;
-    top: 10px;
-    width: 200vh;
-  }
 
   @media only screen and (max-width:700px){
-    .title, .chuck, .categories,#data {
+    .chuck, .categories,#data {
         width: 100%;
     }
   }
